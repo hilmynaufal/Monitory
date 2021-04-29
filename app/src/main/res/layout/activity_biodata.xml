@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiodataActivity"
+    android:orientation="vertical"
+    android:background="#f8f8f8">
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="25sp"
+        android:text="Nama Panggilan Kamu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/nama"
+        android:backgroundTint="#dedede"
+        android:fontFamily="@font/rubik_regular"
+        android:hint="Contoh: Budi"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="25sp"
+        android:text="Umur Kamu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/umur"
+        android:backgroundTint="#dedede"
+        android:fontFamily="@font/rubik_regular"
+        android:hint="Contoh: 12"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <Button
+        android:id="@+id/btnSelanjutnya"
+        android:layout_gravity="center"
+        android:elevation="0dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Selanjutnya"
+        android:textAllCaps="false"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/buttonkuning"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
